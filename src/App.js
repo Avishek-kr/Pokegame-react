@@ -1,9 +1,10 @@
 import './App.css';
-import Pokedex from './Pokedex';
+import Pokegame from './Pokegame';
 function App() {
   return (
     <div className="App">
-      <Pokedex />
+      <h1 className="text-center text-3xl font-bold mb-5 mt-3 heading">Pokedex!</h1>
+      <Pokegame />
     </div>
   );
 }
